@@ -1,0 +1,150 @@
+#navigation-bar ul{
+    background: #0c8fa6;
+    height: 63px;
+}
+#navigation-bar ul li{
+    display: inline-block;
+    padding-left:80px;
+    padding-top: 20px;
+    }
+#navigation-bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: Calibri, sans-serif;
+    padding-left: 2px;
+}
+#navigation-bar a:hover{
+    color: #05D026FF;
+}
+ul li:first-of-type{
+    margin-left: 550px;
+}
+header{
+    margin-top: -16px;
+    background: #0c8fa6;
+    width: 101%;
+    margin-left: -7px;
+}
+header div{
+    position: absolute;
+    font-size: 45px;
+    font-style: oblique;
+    font-family: Calibri, sans-serif;
+    border-left: 3px solid #05D026FF;
+    border-top-left-radius: 10px;
+    border-bottom: 3px solid #05D026FF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 8px;
+    left: 35px;
+}
+header div a{
+    text-decoration: none;
+    color: #05d026;
+}
+#background-div {
+    background: url(images/pozadina.jpg) no-repeat;
+    width: auto;
+    height: 500px;
+    background-color: #0c8fa6;
+    margin-top: -16px;
+    filter: blur(3px);
+}
+#text{
+    position: absolute;
+    top: 150px;
+    left:280px;
+    color: #0c8fa6;
+    display: inline-block;
+    font-size: 36px;
+    font-family: Calibri, sans-serif;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    background-color: rgba(158, 239, 230, 0.3);
+    line-height: 35px;
+    width: 670px;
+}
+footer{
+    padding: 5px 0px 5px 600px;
+    background: #0c8fa6;
+    color: white;
+    width: auto;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+}
+#amsterdam,#torino,#split{
+    width: 325px;
+    font-size: 16px;
+    border-left: 3px solid #0C8FA6FF;
+    border-right: 3px solid #0C8FA6FF;
+    background-color: rgba(158, 239, 230, 0.3);
+    padding-right: 15px;
+    padding-left: 15px;
+    position: absolute;
+    top: 70px;
+    text-align: justify;
+    font-family: Calibri, sans-serif;
+}
+#amsterdam{
+    left: 10px;
+    height: 489px;
+}
+#torino{
+    left: 505px;
+    height: 489px;
+}
+#split{
+    left: 990px;
+    height: 489px;
+}
+h2{
+    color: #0C8FA6FF;
+    margin-left: 90px;
+    font-family: Calibri, sans-serif;
+}
+
+#tekst1, #tekst2{
+    display: inline-block;
+    width: 570px;
+    color:#0D1A26;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Calibri, sans-serif;
+
+}
+#fudbal,#velosiped{
+    width: 570px;
+    border-left: 3px solid #0C8FA6FF;
+    border-right: 3px solid #0C8FA6FF;
+    background-color: rgba(158, 239, 230, 0.3);
+    padding-right: 15px;
+    padding-left: 15px;
+    position: absolute;
+    top: 70px;
+    text-align: justify;
+}
+#velosiped{
+    left:700px;
+}
+#fudbal{
+    left:50px;
+}
+h1{
+    color: #0C8FA6FF;
+    margin-left: 150px;
+    font-family: Calibri, sans-serif;
+}
+#kontakt{
+    position: absolute;
+    left: 90px;
+    top: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Calibri, sans-serif;
+    color: #202938;
+}
+#kontakt a{
+    padding-right: 20px;
+}
